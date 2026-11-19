@@ -160,5 +160,6 @@ The dashboard provides insights into transport journeys, transport modes and rep
 ## Power BI Dashboard
 
 The dashboard visualises London public transport journeys, compares transport modes and analyses journey trends over time.
+![London Transport Dashboard](images/London_Transport_Dashboard.img.jpeg)
 
 ![London Transport Dashboard](images/London_Transport_Dashboard.img.png)
