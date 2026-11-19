@@ -156,3 +156,4 @@ The dashboard provides insights into transport journeys, transport modes and rep
 ## Project Architecture
 
 ![Architecture](images/London_Transport_Architecture.png)
+![London Transport Architecture](images/London%20Transit%20Data%20Pipeline%20Infographic.png)
