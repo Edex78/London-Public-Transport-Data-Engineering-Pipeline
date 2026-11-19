@@ -20,13 +20,13 @@ The objective is to transform raw transport data into structured, analytical dat
 - Develop an interactive Power BI dashboard.
 - Demonstrate practical cloud data engineering skills.
 
-## 3. Architecture
+## 3. Project Architecture
 
 The project follows the Medallion Architecture.
 
 ### Bronze Layer – Raw Data
 - Stores the original public transport dataset.
-- Preserves the ingested data for further processing.
+- Preserves ingested data for further processing.
 - Table: `dbo.public_transport_journeys`
 
 ### Silver Layer – Cleaned Data
@@ -65,7 +65,7 @@ The dataset includes journey information for:
 - London Cable Car
 - TfL Rail
 
-The dataset contains 215 records in the processed Bronze table.
+The processed Bronze table contains 215 records.
 
 ## 6. Data Engineering Process
 
@@ -114,52 +114,39 @@ These findings demonstrate the importance of buses and the Underground within Lo
 
 ## 10. Pipeline Execution Status
 
-The Fabric pipeline was created and successfully validated.
+The Microsoft Fabric pipeline was created and successfully validated.
 
-However, execution  However, execution encountered a Microsoft Fabric Spark capacity limitation (HTTP 430). Therefore, successful automated pipeline execution has not yet been confirmed.
+However, execution encountered a Microsoft Fabric Spark capacity limitation (HTTP 430). Therefore, successful automated pipeline execution has not yet been confirmed.
 
 The notebook transformations and Gold-layer analysis were successfully executed separately.
 
-11. Future Improvements
+## 11. Future Improvements
 
-Resolve Spark capacity limitations.
+- Resolve Spark capacity limitations.
+- Complete and validate automated pipeline execution.
+- Implement scheduled data ingestion.
+- Add data quality validation.
+- Expand the dataset with additional transport information.
+- Develop more advanced analytical dashboards.
 
-Complete and validate automated pipeline execution.
-
-Implement scheduled data ingestion.
-
-Add data quality validation.
-
-Expand the dataset with additional transport information.
-
-Develop more advanced analytical dashboards.
-
-12. Author
-
-Developed as a practical portfolio project to demonstrate cloud data engineering, data transformation, SQL analytics and business intelligence skills using Microsoft Fabric.
-
-Project: London Public Transport Data Engineering Pipeline
-
-Architecture: Bronze → Silver → Gold
-
-Technologies: Microsoft Fabric | PySpark | SQL | Power BI | Delta Lake
-## 13. Project Architecture
+## 12. Project Architecture Diagram
 
 The following diagram illustrates the end-to-end data engineering workflow.
 
-![London Transport Architecture](images/London_Transport_Architecture.png)
-## 14. Power BI Dashboard
+![London Public Transport Data Engineering Architecture](images/London%20Transit%20Data%20Pipeline%20Infographic.png)
+
+## 13. Power BI Dashboard
 
 The dashboard provides insights into transport journeys, transport modes and reporting periods.
 
-![London Transport Dashboard](images/London_Transport_Dashboard.png)
-## Project Architecture
-
-![Architecture](images/London_Transport_Architecture.png)
-![London Transport Architecture](images/London%20Transit%20Data%20Pipeline%20Infographic.png)
-## Power BI Dashboard
-
-The dashboard visualises London public transport journeys, compares transport modes and analyses journey trends over time.
 ![London Transport Dashboard](images/London_Transport_Dashboard.img.jpeg)
 
-![London Transport Dashboard](images/London_Transport_Dashboard.img.png)
+## 14. Author
+
+Developed as a practical portfolio project to demonstrate cloud data engineering, data transformation, SQL analytics and business intelligence skills using Microsoft Fabric.
+
+**Project:** London Public Transport Data Engineering Pipeline
+
+**Architecture:** Bronze → Silver → Gold
+
+**Technologies:** Microsoft Fabric | PySpark | SQL | Power BI | Delta Lake
