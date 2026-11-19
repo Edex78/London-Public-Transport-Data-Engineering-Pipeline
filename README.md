@@ -153,3 +153,6 @@ The following diagram illustrates the end-to-end data engineering workflow.
 The dashboard provides insights into transport journeys, transport modes and reporting periods.
 
 ![London Transport Dashboard](images/London_Transport_Dashboard.png)
+## Project Architecture
+
+![Architecture](images/London_Transport_Architecture.png)
