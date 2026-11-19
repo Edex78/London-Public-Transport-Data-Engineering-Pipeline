@@ -143,3 +143,13 @@ Project: London Public Transport Data Engineering Pipeline
 Architecture: Bronze → Silver → Gold
 
 Technologies: Microsoft Fabric | PySpark | SQL | Power BI | Delta Lake
+## 13. Project Architecture
+
+The following diagram illustrates the end-to-end data engineering workflow.
+
+![London Transport Architecture](images/London_Transport_Architecture.png)
+## 14. Power BI Dashboard
+
+The dashboard provides insights into transport journeys, transport modes and reporting periods.
+
+![London Transport Dashboard](images/London_Transport_Dashboard.png)
